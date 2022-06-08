@@ -29,7 +29,7 @@ ShopItemFunc.propTypes = {
     descriptionFull: PropTypes.string,
     currency: PropTypes.string,
     price: PropTypes.number,
-  }),
+  }).isRequired,
 };
 
 export default ShopItemFunc;
